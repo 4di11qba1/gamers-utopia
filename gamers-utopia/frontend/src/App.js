@@ -7,6 +7,7 @@ import './App.css';
 import SignIn from './components/SignIn.js';
 import SignUp from './components/SignUp.js';
 import { createRoot } from 'react-dom/client';
+import Chat from './components/Chat.js';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(() => {
@@ -46,7 +47,7 @@ const App = () => {
                 path="/*"
                 element={
                   <>
-                    <Sidenav
+                    {/* <Sidenav
                       windowWidth={windowWidth}
                       lightTheme={lightTheme}
                       darkTheme={darkTheme}
@@ -55,7 +56,8 @@ const App = () => {
                       itemData={itemData}
                       itemDataV={itemDataV}
                       genreList={genreList}
-                    />
+                    /> */}
+                    <Chat />
                   </>
                 }
               />
