@@ -1,0 +1,13 @@
+.hoverableElement:hover {
+    background-color: rgba(0, 0, 0, 0.524);
+}
+
+/* Hide vertical scrollbar for Firefox */
+.scrollableElement::-moz-scrollbar {
+    display: none;
+}
+
+/* Hide vertical scrollbar for WebKit (Chrome, Safari, Edge) */
+.scrollableElement::-webkit-scrollbar {
+    display: none;
+}
